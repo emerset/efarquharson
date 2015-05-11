@@ -3,7 +3,7 @@
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
 define("DB_PASS", "free4ever");
-define("DB_NAME", "talkingspace");
+define("DB_NAME", "efarquharson");
 
 // Paths
 define('BASE_URI', 'http://'.$_SERVER['SERVER_NAME'].'/ZendStudioWorkspace/efarquharson/');

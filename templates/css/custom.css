@@ -5,7 +5,7 @@
 body {
 	padding-bottom: 40px;
 	color: #5a5a5a;
-	background: #f4f4f4;
+	background: #e0e0e4;
 }
 
 
@@ -98,7 +98,7 @@ h3{
 .block {
 	max-width: 330px;
 	background:#fff;
-	border-radius:5px;
+	border-radius:3%;
 	margin: 20px;
 }
 
@@ -110,11 +110,6 @@ h3{
 .img-square {
 	border-top-left-radius:3%;
 	border-top-right-radius:3%;
-}
-
-.img-square2 {
-	border-top-left-radius:2%;
-	border-top-right-radius:2%;
 }
 
 a {
@@ -162,4 +157,25 @@ a.block {
     border-radius: 4px;
   }
 
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  .block {
+	max-width: 330px;
+	background:#fff;
+	border-radius:3%;
+	margin: 0px;
+  }
+}
 
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1070px;
+  }
+}

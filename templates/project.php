@@ -5,7 +5,7 @@
 <!-- TITLE
 ================================================== -->
 
-<h1 class="project-title"><?php echo getProject($project_id)->title ?></h1>
+<h1 class="page-title"><?php echo getProject($project_id)->title ?></h1>
 <h3 class="project-subtitle"><?php echo getProject($project_id)->subtitle ?></h3>
 
 <!-- PROJECT EXAMPLES
@@ -25,6 +25,7 @@
           <div class="project-text">
           <h3><?php echo $example->title ?></h3>
           <p><?php echo $example->subtitle ?></p>
+          <a href="<?php echo $example->githubcode ?>" class="btn btn-primary" target="_blank">GitHub Code</a>
           </div>
         </div>
         </div>
@@ -33,5 +34,6 @@
         <?php endforeach;?>
                 
       </div><!-- /.row -->
+      </div>
 
 <?php include 'templates/includes/footer.php'; ?>

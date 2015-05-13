@@ -54,6 +54,7 @@
         
         
       </div><!-- /.row -->
+      </div>
       
 
 <?php include 'templates/includes/footer.php'; ?>

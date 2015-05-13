@@ -5,7 +5,7 @@
 body {
 	padding-bottom: 40px;
 	color: #5a5a5a;
-	background: #fff;
+	background: #e8f1ff;
 }
 
 
@@ -81,7 +81,7 @@ h3.projectlabels{
 /* PROJECT TITLE MENU
 -------------------------------------------------- */
 
-.project-title {
+.page-title {
 	margin-top:50px;
 	color: inherit;
 	text-align: center;
@@ -89,6 +89,19 @@ h3.projectlabels{
 
 .project-subtitle {
 	text-align: center;
+}
+
+/* ABOUT PAGE
+-------------------------------------------------- */
+.about {
+	background:#fff;
+	border-radius: 10px;
+	margin-top: 50px;
+	padding: 30px;
+}
+
+.about-text {
+	margin-top: 50px;
 }
 
 /* PROJECTS CONTENT
@@ -115,9 +128,9 @@ h3.projectlabels{
 	border-top-right-radius: 4px;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
-	border-style: solid;
-	border-color: #000;
-	border-width: thin;
+	/*border-style: solid;
+	border-color: #fff;
+	border-width: thin;*/
 }
 
 .centre {

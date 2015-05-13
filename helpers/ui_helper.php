@@ -12,3 +12,13 @@ function selectLabel($current_label, $get_label){
 		return 'label-option';
 	}
 }
+
+function displayMessages($errors, $success){
+	if($success){
+		echo '<div class="alert alert-success">' . $success . '</div>';
+	}
+	
+	foreach ($errors as $error){
+		echo '<div class="alert alert-danger">' . $error . '</div>';
+	}
+}

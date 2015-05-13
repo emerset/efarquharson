@@ -1,4 +1,5 @@
       <!-- FOOTER -->
+   <div class="container">
       <footer>
         <p class="pull-right"><i>Website created &amp; maintained by Emerset Farquharson</i></p>
       </footer>

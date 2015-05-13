@@ -33,13 +33,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="<?php echo BASE_URI ?>">Emerset Farquharson's Portfolio</a>
+              <a class="navbar-brand" href="<?php echo BASE_URI ?>">Emerset Farquharson</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="<?php echo BASE_URI ?>">Home</a></li>
                 <li><a href="<?php echo BASE_URI.'about.php'?>">About</a></li>
-                <li><a href="<?php echo BASE_URI.'github.php'?>">GitHub</a></li>
+                <li><a href="https://github.com/emerset" target="_blank">GitHub</a></li>
                 <li><a href="<?php echo BASE_URI.'contact.php'?>">Contact</a></li>
               </ul>
             </div>

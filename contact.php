@@ -1,5 +1,6 @@
-<?php require('core/init.php'); 
+<?php require('core/init.php'); ?>
 
+<?php
 $validate = new Validator();
 
 $errors = array();
@@ -34,6 +35,13 @@ if (isset($_POST['submit'])) {
 		array_push($errors, "Please add an email so I can reply");
 	}
 }
+?>
 
+<?php
+// Assign local vars
+$home = '';
+$about = '';
+$contact = ' class="active"';
+?>
 
-include 'templates/contact.php';?>
+<?php include 'templates/contact.php';?>

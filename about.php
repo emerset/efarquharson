@@ -1,5 +1,10 @@
-<?php require('core/init.php'); 
+<?php require('core/init.php'); ?>
 
+<?php
+// Assign local vars
+$home = '';
+$about = ' class="active"';
+$contact = '';
+?>
 
-
-include 'templates/about.php';?>
+<?php include 'templates/about.php';?>
